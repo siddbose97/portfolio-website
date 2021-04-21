@@ -1,0 +1,11 @@
+{
+    "image_profile": "https://c.files.bbci.co.uk/677C/production/_110529462_gettyimages-1154898763.jpg",
+    "greeting": "Hello, My Name is Sidd!",
+    "introduction": "I\"m a Computer Science and Economics Graduate from UCLA", 
+    "languages": [
+        {"name":"python", "years": 4},
+        {"name": "c++", "years": 6},
+        {"name": "java", "years": 3},
+        {"name": "swift", "years": 1}
+    ]
+}

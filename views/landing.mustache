@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>{{global.site_name}}</title>
+</head>
+
+<body>
+    <img src="{{{page.image_profile}}}"/>
+    <h1>{{page.greeting}}</h1>
+    <p>{{page.introduction}}</p>
+
+    <h3>Programming Languages</h3>
+    <ol>
+        {{#page.languages}}
+        <li>{{name}}, {{years}} years of experience</li>
+        {{/page.languages}}
+    </ol>
+
+    <!-- '>' means partial--> 
+   {{>form}}
+
+</body>
+
+
+
+</html>
