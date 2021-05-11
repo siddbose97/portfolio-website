@@ -2,12 +2,6 @@
     "image_profile": "https://c.files.bbci.co.uk/677C/production/_110529462_gettyimages-1154898763.jpg",
     "greeting": "Hello, My Name is Sidd!",
     "introduction": "I\"m a Computer Science and Economics Graduate from UCLA", 
-    "languages": [
-        {"name":"python", "years": 4},
-        {"name": "c++", "years": 6},
-        {"name": "java", "years": 3},
-        {"name": "swift", "years": 1}
-    ],
     "hero": {
         "greeting": "Welcome!",
         "introduction": "My name is Siddhartha Bose and I'm a Computer Science and Economics Graduate from UCLA!",
@@ -18,6 +12,19 @@
         "header":"My Projects",
         "subheader":"This is just some of my recent work! Enjoy!"
 
+    },
+    "service": {
+       "header": "Skills and Interests",
+       "subheader": "Technical and Otherwise",
+        "img_1": "https://lh3.googleusercontent.com/U4rGdJ-R-3pLarDVNZJrokGkSW5cNwrwgLocOIPG1HWnFX-Mrcaq7miPSevCJWusDX5qKYXuyZGUoXoC60QYVRAwHMRU4X59_K4oVw",
+        "img_2": "https://lh3.googleusercontent.com/t4qKJLlVGyrQDwvUH6R9fDE9_J3gYgwL7qEoogrCuFLGn2Kkv0XEsj4-_bPXiYJP0JMZ6cuvHueX2M79vEJTjFFfASY",
+        "img_3": "https://lh3.googleusercontent.com/uOsmQSUxTHHpkXB2B-MJk5FJK16xSEmmr_8qcbjXpkfg7udbyjYugMTe9Thq7fa3iMQe94TmcxKGKt20Jxk3m3b0ow",
+        "img_4": "https://lh3.googleusercontent.com/wV5ezHwg-P-WEeG1pesrNpNBSDATqnTxr4ZTah_wld3ZXW-DbVmAXeAfq5qlyH6OvuKZttRF0nn2K0aaV8SvcI967Q",
+        "img_5": "https://lh3.googleusercontent.com/G23HGLZX7yNkzKWDe8oXRjIGgfznxgg-jKNTmtD2L4MMRPrSuI-77FcNJTK3xEyT2AbOfumIysFx-U3A78TxwbJQyw",
+        "img_6": "https://lh3.googleusercontent.com/MJwNNAhQaXFPTjlofNHh8wcL7Aftu4h0yDP5FTrGC5WZsb9iL9vEIn14Tlgh4K_1y3JIuGh13A1zVw7vdnJW23pLtZ0"
+    },
+    "contact": {
+        "header": "Let's Collaborate!",
+        "subheader": "Please reach out to me for job or project opportunities!"
     }
-    
 }
