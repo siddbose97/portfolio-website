@@ -5,7 +5,6 @@
     "hero": {
         "greeting": "Welcome!",
         "introduction": "My name is Siddhartha Bose and I'm a Computer Science and Economics Graduate from UCLA!",
-        "img_background": "https://lh3.googleusercontent.com/1U9qW1j25Tzt--WPtw1u-1hMopjAN3xYVu1gTbTPZ5-1GvcPWxN67y3CHR1336jkMgw_JCTLzyfTHMZpJZ5wEXoICIAd0p7Dur8_tg",
         "img_profile": "https://lh3.googleusercontent.com/yU86Fo41iKxmW--xOH5clH3UdWC-Sj5Zy5KTjliCXMHNUmVUAaDDHeRyDhypxu9LXJ1ctSQ5XXRBwjszAV6nvV6uY2oQ0dCN0WyyNoU"
     },
     "projects":{
