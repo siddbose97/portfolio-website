@@ -1,6 +1,7 @@
 (function(){
     console.log('Hello')
-    $('#btn-register').click(function(event){
+    $('#btn-register').click(function(event){        
+        
         if(event)
             event.preventDefault()
 
@@ -21,7 +22,13 @@
             error: function(){}
         })
         console.log('Submitted' + JSON.stringify(visitor))
-
+        var text = $('#btn-register').val();
+        if(text === 'Send Message'){
+            $(this).val('Sent!');
+          } else{
+            $(this).val('Send Message');
+            console.log(text)
+         }
 
     })
 })()
