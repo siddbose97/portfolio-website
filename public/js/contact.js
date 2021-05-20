@@ -18,17 +18,19 @@
             data: visitor,
             success: function(response){
                 console.log('Info Received: ' + JSON.stringify(response))
+                var text = $('#btn-register').val();
+                console.log(text)
+                if(text === 'Send Message'){
+                    $('#btn-register').val('Sent!')
+                    console.log('im here')
+                } else{
+                    $('#btn-register').val('Send Message');
+                }
+
             },
             error: function(){}
         })
         console.log('Submitted' + JSON.stringify(visitor))
-        var text = $('#btn-register').val();
-        if(text === 'Send Message'){
-            $(this).val('Sent!');
-          } else{
-            $(this).val('Send Message');
-            console.log(text)
-         }
 
     })
 })()
