@@ -17,9 +17,10 @@
             type: 'POST',
             data: visitor,
             success: function(response){
-                console.log('Info Received: ' + JSON.stringify(response))
                 var text = $('#btn-register').val();
                 console.log(text)
+                console.log('Info Received: ' + JSON.stringify(response))
+                
                 if(text === 'Send Message'){
                     $('#btn-register').val('Sent!')
                     console.log('im here')

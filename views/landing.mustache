@@ -110,13 +110,16 @@
                     </div>
                 </div>
                 <div class="row mt-5">
+                    {{#services}}
                     <div class="col-md-4 service mb-5 aos-init aos-animate">
-                        <img class="icon mr-4" src="{{{page.service.img_1}}}">
+                        <img class="icon mr-4" src="{{{image}}}">
                         <div class="content">
-                            <h5>Web Development</h5>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, earum.</p>
+                            <h5>{{{name}}}</h5>
+                            <p>{{{description}}}</p>
                         </div>
                     </div>
+                    {{/services}}
+
                 </div>
             </div>
         </section>
