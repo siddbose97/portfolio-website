@@ -1,0 +1,70 @@
+{
+    "header":{
+        "site_name": "My Portfolio",
+        "img_favicon": "https://lh3.googleusercontent.com/5SVrpLI9utkuVJbQb48cpD3tar59mgWaWSAM73Ghj8dxFJMD2UOzkhO5ptWDd2uV2eqgSvDCSa-Ad8aOrygXx6nv",
+        "img_logo_nav": "https://lh3.googleusercontent.com/NBLgnbXyRuI-HU-HY6eicFQHyCai8U7QlMhkk16h8cU0OBPxxTepRf12zSekWaoAmmGC_e0RpR-FCB8hzvTN-CNz68E5TG7mxngYMg",
+        "img_logo_footer": "https://lh3.googleusercontent.com/NBLgnbXyRuI-HU-HY6eicFQHyCai8U7QlMhkk16h8cU0OBPxxTepRf12zSekWaoAmmGC_e0RpR-FCB8hzvTN-CNz68E5TG7mxngYMg",
+        "img_background": "https://lh3.googleusercontent.com/1U9qW1j25Tzt--WPtw1u-1hMopjAN3xYVu1gTbTPZ5-1GvcPWxN67y3CHR1336jkMgw_JCTLzyfTHMZpJZ5wEXoICIAd0p7Dur8_tg",
+        "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
+        "header_nav": {
+            "nav0": {
+                "text": "Background",
+                "show_or_hide": true
+            },
+            "nav1": {
+                "text": "Project",
+                "show_or_hide": true
+            },
+            "nav2": {
+                "text": "Skills",
+                "show_or_hide": true
+            },
+            "nav3": {
+                "text": "Blog",
+                "show_or_hide": true
+            },
+            "nav4": {
+                "text": "Contact",
+                "show_or_hide": true
+            }
+        },
+        "social": {
+            "facebook": {
+                "link": "https://www.facebook.com/siddhartha1892/",
+                "show_or_hide": true
+            },
+            "linkedin": {
+                "link": "https://www.linkedin.com/in/siddhartha-bose/",
+                "show_or_hide": true
+            },
+            "instagram": {
+                "link": "https://www.instagram.com/cdbuddha/",
+                "show_or_hide": true
+            },
+            "github": {
+                "link": "https://github.com/siddbose97",
+                "show_or_hide": true
+            }
+        }
+    },
+    "background-images": {
+        "graduation": "https://lh3.googleusercontent.com/lb4NpH1enNLM3GGPCRPUfevT9iLKhW1YfpiEg_LJOhQo_PXrBMZ41U9n3MB4WLRhRGn81JhR4U6V_aKTQk_tqMIrpikd4jy3VV9jTNw",
+        "gym": "https://lh3.googleusercontent.com/m6O3nTb3GTtbHJW3YTdGrUd369CnJDhJ75Xru9GjZFUIgVDYVAa4LrNH87RB1KVynlny_jRQdrz4UB_QAxH2UV48Bjk3wKgV3ECR0g",
+        "sweater":"https://lh3.googleusercontent.com/d8ZmS1HNnyfi42WjKZqGqi9BXCA-ceHejoWHA7LQqjBYV1tq_CMXUZ8k_081whp8II6sYRP2Y15zJvNJVaR-y8UY8iiUGW6fiS-vUv0",
+        "burger":"https://lh3.googleusercontent.com/Li3Hv1mZmuHKQqhWUtSTfvaP0_jHG48QTqvWnnzi5hYEIWOBi4gt8_D4TSR9JzxQMD4-TRyep1Rf0IkjVyD-Q4XKT4R2iGu1motpEZg",
+        "camera": "https://lh3.googleusercontent.com/xNMrxUIl2-DoP0dAAeHDyM3RhLm8chXLLqqOvkVeQZdeTeofnA4yvjztAhNaXOAjei_aAcjavXhO349snrmiLmeybnA_gro0Vg65Cs8"
+    },
+    "background-information": {
+        "header": "Who is Siddhartha Bose",
+        "subheader": "",
+        "items": {
+            "education": "Computer Scientist",
+            "powerlifting": "Powerlifter",
+            "armylife": "Weapons Technician in the SAF",
+            "photography": "Amateur Photographer",
+            "investing": "Budding Investor",
+            "cooking": "Avid Cook and Baker"
+        }
+
+    }
+}
