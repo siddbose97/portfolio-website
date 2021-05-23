@@ -23,6 +23,9 @@
                     <div class="collapse navbar-collapse mt-0" id="navbarCollapse">
                         <ul class="navbar-nav ml-auto mobile-nav">
                             <li class="nav-item">
+                                <a class="nav-link" href="/background">{{page.header.header_nav.nav0.text}}</a>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link" href="/#projects">{{page.header.header_nav.nav1.text}}</a>
                             </li>
                             <li class="nav-item">
@@ -152,36 +155,17 @@
                 <div class="container pt-5 pb-5 text-black">
                     <div class="row">
                         <div class="col-md-12 text-center">
-                            <p><img class="img-logo-footer" style="width:200px;" src="{{{global.img_logo_footer}}}=s440"/></p>
+                            <p><img class="img-logo-footer" style="width:200px;" src="{{{page.header.img_logo_footer}}}=s440"/></p>
             
                                 <ul class="list-inline social social-white-alt social-rounded social-sm mb-0">
-                                    {{#global.social.facebook.show_or_hide}}
-                                    <li class="list-inline-item"><a href="{{{global.social.facebook.link}}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    {{/global.social.facebook.show_or_hide}}
-                
-                                    {{#global.social.twitter.show_or_hide}}
-                                    <li class="list-inline-item"><a href="{{{global.social.twitter.link}}}" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    {{/global.social.twitter.show_or_hide}}
-                
-                                    {{#global.social.linkedin.show_or_hide}}
-                                    <li class="list-inline-item"><a href="{{{global.social.linkedin.link}}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    {{/global.social.linkedin.show_or_hide}}
-                
-                                    {{#global.social.instagram.show_or_hide}}
+                                    <li class="list-inline-item"><a href="{{{page.header.social.facebook.link}}}" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                                                        
+                                    <li class="list-inline-item"><a href="{{{page.header.social.linkedin.link}}}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                    
                                     <li class="list-inline-item"><a href="{{{global.social.instagram.link}}}" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                    {{/global.social.instagram.show_or_hide}}
-                
-                                    {{#global.social.youtube.show_or_hide}}
-                                    <li class="list-inline-item"><a href="{{{global.social.youtube.link}}}" target="_blank"><i class="fa fa-youtube"></i></a></li>
-                                    {{/global.social.youtube.show_or_hide}}
-                
-                                    {{#global.social.github.show_or_hide}}
-                                    <li class="list-inline-item"><a href="{{{global.social.github.link}}}" target="_blank"><i class="fa fa-github"></i></a></li>
-                                    {{/global.social.github.show_or_hide}}
-                
-                                    {{#global.social.dribbble.show_or_hide}}
-                                    <li class="list-inline-item"><a href="{{{global.social.dribbble.link}}}" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                                    {{/global.social.dribbble.show_or_hide}}
+                                                                        
+                                    <li class="list-inline-item"><a href="{{{page.header.social.github.link}}}" target="_blank"><i class="fa fa-github"></i></a></li>
+                                    
                                 </ul>
                             </div>
                         </div>

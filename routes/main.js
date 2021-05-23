@@ -3,6 +3,7 @@ const router = vertex.router()
 const ProjectController = require('../controllers/ProjectController')
 const PostController = require('../controllers/PostController')
 const ServiceController = require('../controllers/ServiceController')
+const BackgroundController = require('../controllers/BackgroundController')
 
 router.get('/', (req, res) => {
     const data = req.context //{page: ...}
@@ -27,21 +28,6 @@ router.get('/', (req, res) => {
 
 })
 
-// router.get('/#skills', (req, res) => {
-//     const data = req.context //{page: ...}
-
-//     const serviceCtr = new ServiceController()
-//     serviceCtr.get()
-//     .then(services => {
-//         data['services'] = services
-//         res.render('landing', data)
-//     })
-//     .catch(err => {
-//         res.send('Technical Difficulties'+err.message)
-//     })
-
-
-// })
 
 
 router.get('/project/:slug', (req,res) => {
@@ -65,6 +51,21 @@ router.get('/project/:slug', (req,res) => {
         res.send("Feeling Sluggish - " +err.message)
     })
 })
+
+router.get('/background', (req, res) => {
+	const data = req.context // {cdn:<STRING>, global:<OBJECT>}
+
+	const backgroundCtr = new BackgroundController()
+    backgroundCtr.get()
+    .then(background => {
+        data['background'] = background
+        res.render('background', data)
+    })
+    .catch(err => {
+        res.send('Technical Difficulties '+err.message)
+    })
+})
+
 
 router.get('/blog', (req, res) => {
     const data = req.context //{page: ...}

@@ -10,6 +10,10 @@
         "img_background": "https://lh3.googleusercontent.com/1U9qW1j25Tzt--WPtw1u-1hMopjAN3xYVu1gTbTPZ5-1GvcPWxN67y3CHR1336jkMgw_JCTLzyfTHMZpJZ5wEXoICIAd0p7Dur8_tg",
         "subscriber_confirmation": "Thank you for subscribing! We will contact you shortly.",
         "header_nav": {
+            "nav0": {
+                "text": "Background",
+                "show_or_hide": true
+            },
             "nav1": {
                 "text": "Project",
                 "show_or_hide": true

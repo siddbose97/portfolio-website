@@ -50,6 +50,22 @@ router.get('/blog', (req, res) => {
 		})
 	})
 })
+router.get('/background', (req, res) => {
+	const data = req.context // {cdn:<STRING>, global:<OBJECT>}
+
+	let ctr = new controllers.background()
+	console.log('im here')
+	ctr.get()
+	.then(background => {
+    	res.render('background', data)
+	})
+	.catch(err => {
+		res.json({
+			confirmation: 'fail',
+			message: 'err.message'
+		})
+	})
+})
 
 // router.get('/blocks', (req, res) => {
 // 	const data = req.context
