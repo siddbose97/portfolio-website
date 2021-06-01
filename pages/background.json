@@ -55,8 +55,9 @@
         "camera": "https://lh3.googleusercontent.com/xNMrxUIl2-DoP0dAAeHDyM3RhLm8chXLLqqOvkVeQZdeTeofnA4yvjztAhNaXOAjei_aAcjavXhO349snrmiLmeybnA_gro0Vg65Cs8"
     },
     "background-information": {
-        "header": "Who is Siddhartha Bose",
-        "subheader": "",
+        "header": "Who is Siddhartha Bose?",
+        "subheader": "Growing up in the UAE, Singapore, Bangladesh, Bahrain, and finally settling in Los Angeles, CA I was very fortunate to live a very global life. One thing that was always constant, however, was my love for learning and my passion for collaboration.",
+        "subsubheader": "After my years at UCLA I spent a few months working at Darktrace, a cybersecurity company, before making my way back to Singapore to serve as a weapons technician in Singapore Armed Forces. My hope is to be back in the US pursuing a career in product development and software development in 2022. My areas of interest include Machine Learning, Data Mining, and Technology Management.",
         "items": {
             "education": "Computer Scientist",
             "powerlifting": "Powerlifter",
@@ -64,6 +65,14 @@
             "photography": "Amateur Photographer",
             "investing": "Budding Investor",
             "cooking": "Avid Cook and Baker"
+        },
+        "itemInformation":{
+            "education": "I graduated from UCLA with a double major in Computer Science and Economics in the summer of 2019. As a proud Bruin I don't need much to start an 8 clap. ",
+            "powerlifting":"I started powerlifting in 2016 and even through a few injuries and surgeries I have learned an unbelievable amount about what I can achieve with an unbeatable work ethic and consistent execution. ",
+            "armylife": "",
+            "photography": "",
+            "investing": "",
+            "cooking": ""
         }
 
     }
